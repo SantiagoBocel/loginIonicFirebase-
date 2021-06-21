@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>REGISTER</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <from>
+  <!--Email-->
+  <ion-item lines="full">
+    <ion-label position="floating">Email</ion-label>
+    <ion-input type="Text"  #email required></ion-input>
+  </ion-item>
+  <!--Password-->
+  <ion-item lines="full">
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="Password" #password required></ion-input>
+  </ion-item>
+  <ion-row>
+    <ion-col>
+      <ion-button type="submit" (click)="onRegister(email,password)"
+      expand="block" >Register</ion-button>
+    </ion-col>
+  </ion-row>
+</from>
+<ion-row>
+  <ion-col>
+    <p>
+      <a routerLink="/login">Alrady have an account?</a>
+    </p>
+  </ion-col>
+</ion-row>
+</ion-content>
