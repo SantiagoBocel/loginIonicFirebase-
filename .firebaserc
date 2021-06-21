@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-ionic-85048": {
+      "hosting": {
+        "app": [
+          "login-ionic-85048"
+        ]
+      }
+    }
+  }
+}
